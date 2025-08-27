@@ -1,15 +1,8 @@
-# 🧪 Predicción de Diabetes con Regresión Lineal Múltiple
+# Predicción de Diabetes con Regresión Lineal Múltiple
 
 Este proyecto utiliza el dataset **[Predict Diabetes from Medical Records (Kaggle)](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)** para estimar la probabilidad de que un paciente tenga diabetes (`Outcome`) en base a variables clínicas.  
 
-El objetivo es aplicar un **modelo de regresión lineal múltiple** (y posteriormente regresión logística) que permita:  
-1. Calcular la probabilidad de diabetes en función de variables médicas.  
-2. Identificar los factores con mayor influencia en la predicción.  
-3. Permitir el ingreso manual de características clínicas para obtener una predicción personalizada.  
-
----
-
-## 📊 Dataset y variables
+## Dataset y variables
 
 El dataset contiene registros médicos de pacientes, con las siguientes columnas:  
 
@@ -25,7 +18,7 @@ El dataset contiene registros médicos de pacientes, con las siguientes columnas
 
 ---
 
-## ⚕️ Valores clínicos de referencia
+## Valores clínicos de referencia
 
 - **Glucosa**: normal < 100 mg/dL, prediabetes 100–125, diabetes ≥ 126.  
 - **Presión sanguínea**: normal < 80 mmHg (diastólica), hipertensión ≥ 90 mmHg.  
@@ -36,7 +29,7 @@ Estos valores permiten interpretar mejor los resultados obtenidos por el modelo.
 
 ---
 
-## 🔎 Flujo del proyecto
+## Flujo del proyecto
 
 1. **Carga y exploración del dataset**  
    - Se importan los datos y se renombran las columnas a español.  
@@ -60,7 +53,7 @@ Estos valores permiten interpretar mejor los resultados obtenidos por el modelo.
 
 ---
 
-## 📈 Resultados
+## Resultados
 
 - El modelo entrega una probabilidad de diabetes en porcentaje (%).  
 - Variables como **glucosa, IMC y edad** aparecen con mayor peso en la predicción.  
@@ -68,9 +61,5 @@ Estos valores permiten interpretar mejor los resultados obtenidos por el modelo.
 
 ---
 
-## 🚀 Ejecución
+## Ejecución
 
-1. Clonar el repositorio:  
-   ```bash
-   git clone https://github.com/tuusuario/regresion-diabetes.git
-   cd regresion-diabetes
