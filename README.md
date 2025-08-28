@@ -37,19 +37,11 @@ Estos valores permiten interpretar mejor los resultados obtenidos por el modelo.
 
 2. **Preprocesamiento**  
    - Normalización de variables numéricas con `StandardScaler`.  
-   - Eliminación de valores faltantes (si los hubiera).  
 
-3. **Modelado**  
-   - Se implementa **Regresión Lineal Múltiple** (`LinearRegression`) para una primera aproximación.  
-   - Se recomienda usar **Regresión Logística** (`LogisticRegression`) dado que la salida es categórica (0/1).  
-
-4. **Predicción manual**  
+3. **Predicción manual**  
    - El script permite ingresar valores clínicos (ejemplo: glucosa = 140, IMC = 32, edad = 60).  
    - El modelo devuelve la probabilidad estimada de diabetes.  
-
-5. **Interpretación de resultados**  
-   - Se analizan los coeficientes del modelo para identificar qué variables tienen mayor peso en la predicción.  
-   - Se comparan los valores clínicos ingresados con los rangos de referencia.  
+ 
 
 ---
 
@@ -63,3 +55,7 @@ Estos valores permiten interpretar mejor los resultados obtenidos por el modelo.
 
 ## Ejecución
 
+- Se ingresan los valores de IMC, glucosa y edad.
+- Se ejecuta el programa y se observan los resultados.
+
+### Saludos :)
